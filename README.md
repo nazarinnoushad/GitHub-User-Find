@@ -1,12 +1,16 @@
-# React + Vite
+# GitHub User Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React app that allows users to search for GitHub user profiles by their username. The app retrieves and displays basic information about the user, such as their name, bio, location, public repositories, followers, and following count. It uses the GitHub API to fetch user data and presents the information in a clean and responsive layout.
 
-Currently, two official plugins are available:
+## Features:
+- **Search for GitHub users**: Enter a GitHub username and fetch the user data.
+- **Displays user details**: Shows user profile picture, name, bio, location, public repositories, followers, and following count.
+- **Responsive Design**: Built using Tailwind CSS for a clean and mobile-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technology Stack:
+- **React**: JavaScript library for building user interfaces.
+- **Axios**: Promise-based HTTP client for making API requests.
+- **Tailwind CSS**: Utility-first CSS framework for fast styling.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### **Live App**:
+[Live Demo](https://naz-github-user-find.netlify.app/)
